@@ -21,4 +21,18 @@ while(1):
         break
     except ValueError:
         print("Oops!  That was no valid number.  Try again...")
-        continue
+
+    match option:
+        case 1:
+        
+
+        case 2:
+        
+
+        case 3:
+        
+    
+        case 4:
+        
+
+
