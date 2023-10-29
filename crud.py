@@ -17,29 +17,6 @@ def main():
         else:
             print ('\n INVALID SELECTION \n')
             
-# creating connectioons for communicating with Mongo DB
-client = MongoClient('localhost:27017')
-db = client.EmployeeData
-
-# Function to insert data into mongo db
-def insert():
-    try:
-        employeeId = input('Enter Employee id :')
-        employeeName = input('Enter Name :')
-        employeeAge = input('Enter age :')
-        employeeCountry = input('Enter Country :')
-    
-    except Exception as e:
-        print (str(e))
-
-
-db.Employees.insert_one(
-        {
-        "id": employeeId,
-        "name":employeeName,
-        "age":employeeAge,
-        "country":employeeCountry
-        })
 
 # Function to insert data into mongo db
 def insert():
