@@ -20,7 +20,7 @@ while(1):
         option = int(input("Digite a opção: "))
         break
     except ValueError:
-        print("Oops!  That was no valid number.  Try again...")
+        print("Essa não é uma opção válida")
 
     match option:
         case 1:
