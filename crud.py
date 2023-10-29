@@ -15,8 +15,7 @@ def main():
         elif selection == '4':
             delete()
         else:
-            print ('\n INVALID SELECTION \n')
-            
+            print ('\n INVALID SELECTION \n')         
 
 # Function to insert data into mongo db
 def insert():
