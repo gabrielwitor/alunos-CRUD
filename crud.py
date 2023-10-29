@@ -28,3 +28,4 @@ def insert():
     except Exception as e:
         print (str(e))
 
+print('oi')
