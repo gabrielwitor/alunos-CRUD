@@ -2,35 +2,34 @@
 from pymongo_get_database import get_database
 
 dbname = get_database()
-collection_name = dbname["user_1_items"]
+collection_name = dbname["aluno"]
+
+counter = 0
 
 item_1 = {
-  "_id" : "U1IT00001",
-  "item_name" : "Blender",
-  "max_discount" : "10%",
-  "batch_number" : "RR450020FRG",
-  "price" : 340,
-  "category" : "kitchen appliance"
+    "_id" : counter,
+    "nome": "Gabriel Witor",
+    "idade": 19,
+    "email": "witor.alm@gmail.com",
+    "senha" : "123456"
 }
 
 item_2 = {
-  "_id" : "U1IT00002",
-  "item_name" : "Egg",
-  "category" : "food",
-  "quantity" : 12,
-  "price" : 36,
-  "item_description" : "brown country eggs"
+    "_id" : counter+1,
+    "nome": "Rafael Tomaz",
+    "idade": 17,
+    "email": "rafaeltomaz@gmail.com",
+    "senha" : "01234"
 }
 
 collection_name.insert_many([item_1,item_2])
 
-from dateutil import parser
-expiry_date = '2021-07-13T00:00:00.000Z'
-expiry = parser.parse(expiry_date)
+
 item_3 = {
-  "item_name" : "Bread",
-  "quantity" : 2,
-  "ingredients" : "all-purpose flour",
-  "expiry_date" : expiry
+    "_id" : counter+2,
+    "nome": "Gustav Keller",
+    "idade": 19,
+    "email": "gustav.keller@gmail.com",
+    "senha" : "maskeiko",
 }
 collection_name.insert_one(item_3)
