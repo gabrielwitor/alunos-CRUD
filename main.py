@@ -34,5 +34,5 @@ while(1):
     
         case 4:
         
-
+        case _:
 
