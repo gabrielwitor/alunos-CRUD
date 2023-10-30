@@ -13,7 +13,7 @@ alunos-crud é uma aplicação criada em python que utiliza o MongoDB como banco
 Crie um ambiente virtual utilizando o comando
 `python -m venv venv`. Inicialize o ambiente virtual python e então baixe a biblioteca pymongo utilizando o comando `pip install pymongo`.
 
-*Opcional:* Insira alguns elementos digitando no terminal, na pasta raiz do projeto: `python pymongo_test_insert.py`
+*Opcional:* Insira alguns documentos no banco de dados digitando no terminal, na pasta raiz do projeto: `python pymongo_test_insert.py`
 
 Para utilizar a aplicação, basta rodar o arquivo *main* utilizando o comando `python main.py` no diretório raiz do projeto.
 
