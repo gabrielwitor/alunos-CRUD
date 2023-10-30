@@ -17,4 +17,8 @@ Crie um ambiente virtual utilizando o comando
 
 Para utilizar a aplicação, basta rodar o arquivo *main* utilizando o comando `python main.py` no diretório raiz do projeto.
 
+# Autores
 
+Gabriel Witor             |  Rafael Tomaz
+:-------------------------:|:-------------------------:
+[<img src="https://github.com/gabrielwitor.png" width=130><br><sub>@gabrielwitor</sub>](https://github.com/gabrielwitor)  |  [<img src="https://github.com/RafaelTomazGraciano.png" width=130><br><sub>@RafaelTomazGraciano</sub>](https://github.com/RafaelTomazGraciano)
