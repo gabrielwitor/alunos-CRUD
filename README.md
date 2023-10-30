@@ -1,7 +1,7 @@
 
 # Sistema de cadastro de alunos
 
-alunos-crud é uma aplicação criada em python que utiliza o MongoDB como banco de dados. As operações de adicionar, ler, atualizar deletar cadastros de alunos e são realizadas via terminal.
+alunos-crud é uma aplicação criada em python que utiliza o MongoDB como banco de dados. As operações de adicionar, ler, atualizar e deletar cadastros de alunos e são realizadas via terminal.
 
 # Requisitos
 - [MongoDB](https://www.mongodb.com/) 7.0.2
